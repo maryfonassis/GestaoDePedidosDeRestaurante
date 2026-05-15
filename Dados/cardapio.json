@@ -1,0 +1,304 @@
+{
+  "cardapio": [
+    {
+      "codigo": 1,
+      "nome": "X-Burguer",
+      "categoria": "Hambúrguer",
+      "preco": 18.90
+    },
+    {
+      "codigo": 2,
+      "nome": "X-Salada",
+      "categoria": "Hambúrguer",
+      "preco": 21.50
+    },
+    {
+      "codigo": 3,
+      "nome": "X-Bacon",
+      "categoria": "Hambúrguer",
+      "preco": 24.00
+    },
+    {
+      "codigo": 4,
+      "nome": "X-Tudo",
+      "categoria": "Hambúrguer",
+      "preco": 29.90
+    },
+    {
+      "codigo": 5,
+      "nome": "X-Frango",
+      "categoria": "Hambúrguer",
+      "preco": 23.00
+    },
+    {
+      "codigo": 6,
+      "nome": "X-Calabresa",
+      "categoria": "Hambúrguer",
+      "preco": 25.50
+    },
+    {
+      "codigo": 7,
+      "nome": "X-Egg",
+      "categoria": "Hambúrguer",
+      "preco": 22.00
+    },
+    {
+      "codigo": 8,
+      "nome": "Batata Frita Pequena",
+      "categoria": "Porções",
+      "preco": 12.00
+    },
+    {
+      "codigo": 9,
+      "nome": "Batata Frita Média",
+      "categoria": "Porções",
+      "preco": 16.00
+    },
+    {
+      "codigo": 10,
+      "nome": "Batata Frita Grande",
+      "categoria": "Porções",
+      "preco": 20.00
+    },
+    {
+      "codigo": 11,
+      "nome": "Onion Rings",
+      "categoria": "Porções",
+      "preco": 18.50
+    },
+    {
+      "codigo": 12,
+      "nome": "Frango Empanado",
+      "categoria": "Porções",
+      "preco": 24.00
+    },
+    {
+      "codigo": 13,
+      "nome": "Coca-Cola Lata",
+      "categoria": "Bebidas",
+      "preco": 6.50
+    },
+    {
+      "codigo": 14,
+      "nome": "Guaraná Lata",
+      "categoria": "Bebidas",
+      "preco": 6.00
+    },
+    {
+      "codigo": 15,
+      "nome": "Fanta Laranja",
+      "categoria": "Bebidas",
+      "preco": 6.00
+    },
+    {
+      "codigo": 16,
+      "nome": "Sprite",
+      "categoria": "Bebidas",
+      "preco": 6.00
+    },
+    {
+      "codigo": 17,
+      "nome": "Suco de Laranja",
+      "categoria": "Bebidas",
+      "preco": 9.50
+    },
+    {
+      "codigo": 18,
+      "nome": "Suco de Maracujá",
+      "categoria": "Bebidas",
+      "preco": 9.50
+    },
+    {
+      "codigo": 19,
+      "nome": "Água Mineral",
+      "categoria": "Bebidas",
+      "preco": 4.00
+    },
+    {
+      "codigo": 20,
+      "nome": "Milk Shake Chocolate",
+      "categoria": "Sobremesas",
+      "preco": 15.00
+    },
+    {
+      "codigo": 21,
+      "nome": "Milk Shake Morango",
+      "categoria": "Sobremesas",
+      "preco": 15.00
+    },
+    {
+      "codigo": 22,
+      "nome": "Milk Shake Baunilha",
+      "categoria": "Sobremesas",
+      "preco": 15.00
+    },
+    {
+      "codigo": 23,
+      "nome": "Brownie",
+      "categoria": "Sobremesas",
+      "preco": 12.00
+    },
+    {
+      "codigo": 24,
+      "nome": "Petit Gateau",
+      "categoria": "Sobremesas",
+      "preco": 18.00
+    },
+    {
+      "codigo": 25,
+      "nome": "Pizza Calabresa",
+      "categoria": "Pizzas",
+      "preco": 42.00
+    },
+    {
+      "codigo": 26,
+      "nome": "Pizza Mussarela",
+      "categoria": "Pizzas",
+      "preco": 40.00
+    },
+    {
+      "codigo": 27,
+      "nome": "Pizza Portuguesa",
+      "categoria": "Pizzas",
+      "preco": 45.00
+    },
+    {
+      "codigo": 28,
+      "nome": "Pizza Frango com Catupiry",
+      "categoria": "Pizzas",
+      "preco": 47.00
+    },
+    {
+      "codigo": 29,
+      "nome": "Pizza Quatro Queijos",
+      "categoria": "Pizzas",
+      "preco": 48.50
+    },
+    {
+      "codigo": 30,
+      "nome": "Pizza Bacon",
+      "categoria": "Pizzas",
+      "preco": 49.90
+    },
+    {
+      "codigo": 31,
+      "nome": "Hot Dog Tradicional",
+      "categoria": "Lanches",
+      "preco": 14.00
+    },
+    {
+      "codigo": 32,
+      "nome": "Hot Dog Duplo",
+      "categoria": "Lanches",
+      "preco": 18.50
+    },
+    {
+      "codigo": 33,
+      "nome": "Hot Dog Especial",
+      "categoria": "Lanches",
+      "preco": 21.00
+    },
+    {
+      "codigo": 34,
+      "nome": "Pastel de Carne",
+      "categoria": "Salgados",
+      "preco": 9.00
+    },
+    {
+      "codigo": 35,
+      "nome": "Pastel de Queijo",
+      "categoria": "Salgados",
+      "preco": 9.00
+    },
+    {
+      "codigo": 36,
+      "nome": "Coxinha",
+      "categoria": "Salgados",
+      "preco": 8.50
+    },
+    {
+      "codigo": 37,
+      "nome": "Esfirra de Carne",
+      "categoria": "Salgados",
+      "preco": 7.50
+    },
+    {
+      "codigo": 38,
+      "nome": "Esfirra de Queijo",
+      "categoria": "Salgados",
+      "preco": 7.50
+    },
+    {
+      "codigo": 39,
+      "nome": "Açaí 300ml",
+      "categoria": "Açaí",
+      "preco": 16.00
+    },
+    {
+      "codigo": 40,
+      "nome": "Açaí 500ml",
+      "categoria": "Açaí",
+      "preco": 22.00
+    },
+    {
+      "codigo": 41,
+      "nome": "Açaí 700ml",
+      "categoria": "Açaí",
+      "preco": 28.00
+    },
+    {
+      "codigo": 42,
+      "nome": "Combo X-Burguer + Batata + Refrigerante",
+      "categoria": "Combos",
+      "preco": 32.90
+    },
+    {
+      "codigo": 43,
+      "nome": "Combo X-Bacon + Batata + Refrigerante",
+      "categoria": "Combos",
+      "preco": 38.90
+    },
+    {
+      "codigo": 44,
+      "nome": "Combo Pizza + Refrigerante",
+      "categoria": "Combos",
+      "preco": 59.90
+    },
+    {
+      "codigo": 45,
+      "nome": "Combo Hot Dog + Refrigerante",
+      "categoria": "Combos",
+      "preco": 24.90
+    },
+    {
+      "codigo": 46,
+      "nome": "Café Expresso",
+      "categoria": "Cafés",
+      "preco": 5.50
+    },
+    {
+      "codigo": 47,
+      "nome": "Capuccino",
+      "categoria": "Cafés",
+      "preco": 9.00
+    },
+    {
+      "codigo": 48,
+      "nome": "Chocolate Quente",
+      "categoria": "Cafés",
+      "preco": 10.50
+    },
+    {
+      "codigo": 49,
+      "nome": "Chá Gelado",
+      "categoria": "Bebidas",
+      "preco": 7.00
+    },
+    {
+      "codigo": 50,
+      "nome": "Torta de Limão",
+      "categoria": "Sobremesas",
+      "preco": 13.00
+    }
+  ]
+}
