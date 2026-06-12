@@ -18,10 +18,7 @@ public class Pedido
         Cliente = cliente;
         Codigo = codigo;
     }
-
-    public Pedido()
-    {
-    }
+    
 
     public void AdicionarPedido(ItemMenu pedido)
     {

@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Text.Json;
 using GestaoDePedidoDeRestaurante.Modelos;
 
@@ -29,7 +30,7 @@ public class CardapioService
     }
      public static void BuscarItemPorNome(List<ItemMenu> cardapio, string nome)
     {
-        var itemNome = cardapio.Where(item => item.Nome.Equals(nome)).ToList();
+        var itemNome = cardapio.Where(item => item.Nome.Contains(nome)).ToList();
          foreach (var item in itemNome)
         {
             Console.WriteLine(item.ToString());
@@ -41,6 +42,20 @@ public class CardapioService
          foreach (var item in itemCategoria)
         {
             Console.WriteLine(item.ToString());
+        }
+    }
+    public static void CardapioPorGrupos(List<ItemMenu> cardapio)
+    {
+        var cardapioGrupo = cardapio.GroupBy(item => item.Categoria).ToList();
+        Console.WriteLine("-----CARDAPIO🥘----");
+
+        foreach (var item in cardapioGrupo)
+        {
+            Console.WriteLine(item.Key.ToUpper());
+            foreach (var menu in item)
+            {
+                Console.WriteLine($"-{menu.Nome} | Codigo: {menu.Codigo} | Preço: R${menu.Preco.ToString("F2", CultureInfo.InvariantCulture)}");
+            }
         }
     }
 }

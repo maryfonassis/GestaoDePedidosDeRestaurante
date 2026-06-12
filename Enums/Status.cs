@@ -5,5 +5,6 @@ public enum  Status : int
     Preparo,
     Separacao,
     Entrega,
-    Finalizado
+    Finalizado, 
+    Cancelado
 }
